@@ -67,14 +67,14 @@
       "accent": "#c39a63",
       "accentHover": "#ab8451",
       "copper": "#d8bf98",
-      "body": "#f5f1ea",
+      "body": "#ffffff",
       "surface": "#ffffff",
       "textMain": "#1d2428",
       "textSecondary": "#617076",
       "textInverse": "#f9f7f2"
     },
     "fonts": {
-      "heading": "'Manrope', system-ui, sans-serif",
+      "heading": "'Playfair Display', serif",
       "body": "'Manrope', system-ui, sans-serif"
     },
     "radius": {

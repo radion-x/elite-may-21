@@ -13,6 +13,7 @@
     <meta property="og:site_name" content="Elite Dentistry">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <script src="/js/animatedFavicon.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -25,8 +26,8 @@
 
     <main>
         <section class="hero">
-            <div class="container hero-grid">
-                <div class="hero-copy" data-reveal>
+            <div class="container hero-editorial">
+                <div class="hero-editorial-content" data-reveal>
                     <div class="eyebrow">Neutral Bay Dental Care</div>
                     <h1>Premium dentistry, designed around confidence.</h1>
                     <p class="lede">A calmer, more considered dental experience for patients who want exceptional care, natural-looking results and a team that explains every step clearly.</p>
@@ -36,39 +37,33 @@
                         <li>Invisalign</li>
                         <li>Dental implants</li>
                     </ul>
-                    <div class="button-row">
+                    <div class="button-row" style="margin-top: 1rem;">
                         <a class="button" data-booking-link href="/contact/#appointment-form">Book appointment</a>
                         <a class="button-outline" href="/treatments/">Explore treatments</a>
                     </div>
-                    <div class="offer-banner">
-                        <div class="offer-price">$279</div>
-                        <div>
-                            <div class="small-caps">New patient offer</div>
-                            <p>Comprehensive exam, scale, polish and diagnostic x-rays with a clear explanation of your oral health and next steps.</p>
-                        </div>
-                        <a class="button-subtle" href="/offers/">View offer</a>
-                    </div>
                 </div>
-                <aside class="hero-card" data-reveal="right">
-                    <ul class="meta-list">
-                        <li>
-                            <span class="meta-label">Call the clinic</span>
-                            <span class="meta-value" data-site-phone>02 8350 5840</span>
-                        </li>
-                        <li>
-                            <span class="meta-label">Visit Elite Dentistry</span>
-                            <span class="meta-value" data-site-address>20 Young Street, Neutral Bay, North Sydney NSW 2089</span>
-                        </li>
-                        <li>
-                            <span class="meta-label">Clinic hours</span>
-                            <span class="meta-value">Monday to Friday, 8.00am to 5.00pm</span>
-                        </li>
-                    </ul>
-                    <div class="stack" style="margin-top: 2rem;">
-                        <div class="small-caps" style="color: rgba(249, 247, 242, 0.64);">Designed for calm, clarity and confident decisions</div>
-                        <p style="color: rgba(249, 247, 242, 0.86);">Modern diagnostics, thoughtful communication and treatment options matched to your goals, comfort and long-term oral health.</p>
-                    </div>
-                </aside>
+                <div class="hero-editorial-media" data-reveal="right">
+                    <img src="/images/web-1600/DOK-Website-23.jpeg" alt="Confident patient smile" class="hero-editorial-image" loading="eager" />
+                    <aside class="hero-editorial-card">
+                        <ul class="meta-list" style="margin-bottom: 1.5rem;">
+                            <li>
+                                <span class="meta-label" style="color: var(--color-primary-light);">Call the clinic</span>
+                                <span class="meta-value" data-site-phone style="color: var(--color-primary); font-weight: 700; font-size: 1.1rem;">02 8350 5840</span>
+                            </li>
+                            <li>
+                                <span class="meta-label" style="color: var(--color-primary-light);">Visit Elite Dentistry</span>
+                                <span class="meta-value" data-site-address style="color: var(--color-text-main);">20 Young Street, Neutral Bay, North Sydney NSW 2089</span>
+                            </li>
+                        </ul>
+                        <div class="offer-banner" style="margin: 0;">
+                            <div class="offer-price">$279</div>
+                            <div>
+                                <div class="small-caps">New patient offer</div>
+                                <p style="font-size: 0.85rem; line-height: 1.4;">Comprehensive exam, scale, polish and diagnostic x-rays.</p>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
             </div>
         </section>
 
@@ -96,43 +91,44 @@
                     <h2>Everything your smile needs, in one considered place.</h2>
                     <p class="lede">Clear pathways into the treatments patients search for first, without turning the homepage into a cluttered menu.</p>
                 </div>
-                <div class="service-grid">
-                    <a class="service-card" href="/general-dentistry/" data-reveal>
-                        <div class="small-caps">Healthy foundations</div>
-                        <h3>General Dentistry</h3>
-                        <p>Check-ups, cleans, fillings, prevention and ongoing care designed to support long-term oral health.</p>
-                        <span class="utility-accent">Explore general care</span>
+                <div class="service-editorial-grid">
+                    <a class="service-card service-card--featured" href="/cosmetic-dentistry/" data-reveal>
+                        <div class="service-image-wrap">
+                            <img src="/images/web-1600/DOK-Website-51.jpeg" alt="Cosmetic Dentistry Patient" class="service-image">
+                        </div>
+                        <div class="service-content">
+                            <div class="small-caps">Natural smile design</div>
+                            <h3>Cosmetic Dentistry</h3>
+                            <p style="font-size: 1.1rem; max-width: 45ch;">Veneers, whitening, crowns and smile-enhancing treatment planned around balance and confidence.</p>
+                            <span class="utility-accent" style="margin-top: auto; font-weight: 700;">Explore cosmetic care</span>
+                        </div>
                     </a>
-                    <a class="service-card" href="/cosmetic-dentistry/" data-reveal>
-                        <div class="small-caps">Natural smile design</div>
-                        <h3>Cosmetic Dentistry</h3>
-                        <p>Veneers, whitening, crowns and smile-enhancing treatment planned around balance and confidence.</p>
-                        <span class="utility-accent">Explore cosmetic care</span>
-                    </a>
-                    <a class="service-card" href="/invisalign/" data-reveal>
-                        <div class="small-caps">Discreet alignment</div>
-                        <h3>Invisalign</h3>
-                        <p>Clear aligner treatment for patients who want a straighter smile without traditional braces.</p>
-                        <span class="utility-accent">Explore Invisalign</span>
-                    </a>
-                    <a class="service-card" href="/dental-implants/" data-reveal>
-                        <div class="small-caps">Restore strength</div>
-                        <h3>Dental Implants</h3>
-                        <p>Implant options designed to replace missing teeth and restore function with a confident-looking result.</p>
-                        <span class="utility-accent">Explore implants</span>
-                    </a>
-                    <a class="service-card" href="/emergency-dental-appointments/" data-reveal>
-                        <div class="small-caps">Prompt support</div>
-                        <h3>Emergency Dental Appointments</h3>
-                        <p>Fast assessment and treatment for pain, damage, infection or urgent dental concerns.</p>
-                        <span class="utility-accent">Get urgent care</span>
-                    </a>
-                    <a class="service-card" href="/sleep-dentistry/" data-reveal>
-                        <div class="small-caps">Extra reassurance</div>
-                        <h3>Sleep Dentistry</h3>
-                        <p>Thoughtful sedation pathways for patients who feel anxious, have complex treatment or want more support.</p>
-                        <span class="utility-accent">Learn about comfort options</span>
-                    </a>
+                    <div class="service-editorial-subgrid">
+                        <a class="service-card" href="/general-dentistry/" data-reveal>
+                            <div class="small-caps">Healthy foundations</div>
+                            <h3>General Dentistry</h3>
+                            <p>Check-ups, cleans, fillings, prevention and ongoing care designed to support long-term oral health.</p>
+                            <span class="utility-accent">Explore general care</span>
+                        </a>
+                        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem;">
+                            <a class="service-card" href="/invisalign/" data-reveal style="gap: 0.8rem; padding: 1.25rem;">
+                                <div class="small-caps">Discreet alignment</div>
+                                <h3 style="font-size: 1.2rem;">Invisalign</h3>
+                                <span class="utility-accent" style="font-size: 0.85rem;">Explore Invisalign</span>
+                            </a>
+                            <a class="service-card" href="/dental-implants/" data-reveal style="gap: 0.8rem; padding: 1.25rem;">
+                                <div class="small-caps">Restore strength</div>
+                                <h3 style="font-size: 1.2rem;">Dental Implants</h3>
+                                <span class="utility-accent" style="font-size: 0.85rem;">Explore implants</span>
+                            </a>
+                            <a class="service-card" href="/sleep-dentistry/" data-reveal style="gap: 0.8rem; padding: 1.25rem; grid-column: span 2;">
+                                <div class="small-caps">Extra reassurance</div>
+                                <h3>Sleep Dentistry</h3>
+                                <p style="font-size: 0.9rem;">Thoughtful sedation pathways for patients who feel anxious or have complex treatment.</p>
+                                <span class="utility-accent" style="font-size: 0.85rem;">Learn about comfort options</span>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
