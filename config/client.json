@@ -1,0 +1,95 @@
+{
+  "siteName": "Elite Dentistry",
+  "legalName": "Elite Dentistry",
+  "vertical": "dentistry",
+  "tagline": "Premium dentistry, designed around confidence.",
+  "siteDescription": "Elite Dentistry in Neutral Bay offers premium general, cosmetic, implant and Invisalign care in a calm, modern clinic.",
+  "siteUrl": "https://elitedentistry.com.au",
+  "bookingUrl": "/contact/#appointment-form",
+  "contactUrl": "/contact/",
+  "address": "20 Young Street, Neutral Bay, North Sydney NSW 2089",
+  "phone": "02 8350 5840",
+  "publicEmail": "reception@elitedentistry.com.au",
+  "adminEmail": "reception@elitedentistry.com.au",
+  "emailFrom": "",
+  "replyTo": "",
+  "responseTime": "within one business day",
+  "timezone": "Australia/Sydney",
+  "chat": {
+    "title": "Chat with Elite Dentistry",
+    "welcome": "Welcome to Elite Dentistry in Neutral Bay. Ask about appointments, treatments, pricing pathways or what to expect at your visit.",
+    "inputPlaceholder": "Ask about appointments or treatments...",
+    "suggestedQuestions": [
+      "What does the new patient offer include?",
+      "Can I book an appointment?",
+      "Do you offer Invisalign?",
+      "What implant options do you provide?"
+    ]
+  },
+  "leadTypes": [
+    "callback",
+    "download",
+    "booking"
+  ],
+  "features": {
+    "callbacks": true,
+    "downloadLeads": true,
+    "bookings": true,
+    "webSearch": false
+  },
+  "offers": {
+    "transcriptDownload": {
+      "enabled": true,
+      "label": "Email me this chat",
+      "adminSubject": "New Chat Transcript Download Request",
+      "userSubject": "Your chat transcript"
+    }
+  },
+  "assets": {
+    "logoDark": "",
+    "logoLight": "",
+    "placeholderImage": "/images/placeholders/image.svg",
+    "placeholderHero": "/images/placeholders/hero.svg"
+  },
+  "email": {
+    "adminLeadSubjectPrefix": "New Lead",
+    "callbackSubjectPrefix": "New Callback Request",
+    "contactSubjectPrefix": "New Website Enquiry",
+    "downloadSubjectPrefix": "New Download Lead",
+    "userContactSubject": "Thanks for contacting Elite Dentistry",
+    "userCallbackSubject": "We've received your request",
+    "brandSignoff": "The Elite Dentistry team"
+  },
+  "design": {
+    "colors": {
+      "primary": "#18323d",
+      "primaryLight": "#244754",
+      "accent": "#c39a63",
+      "accentHover": "#ab8451",
+      "copper": "#d8bf98",
+      "body": "#f5f1ea",
+      "surface": "#ffffff",
+      "textMain": "#1d2428",
+      "textSecondary": "#617076",
+      "textInverse": "#f9f7f2"
+    },
+    "fonts": {
+      "heading": "'Manrope', system-ui, sans-serif",
+      "body": "'Manrope', system-ui, sans-serif"
+    },
+    "radius": {
+      "sm": "6px",
+      "md": "10px",
+      "lg": "16px",
+      "xl": "24px"
+    }
+  },
+  "services": [
+    "General Dentistry",
+    "Cosmetic Dentistry",
+    "Invisalign",
+    "Dental Implants",
+    "Emergency Dental Appointments",
+    "Sleep Dentistry"
+  ]
+}

@@ -1,0 +1,53 @@
+body {
+    min-width: 320px;
+}
+
+@media (max-width: 640px) {
+    .container {
+        width: min(calc(100% - 1.25rem), var(--container));
+    }
+
+    .section {
+        padding: 4rem 0;
+    }
+
+    .hero {
+        padding-top: 2rem;
+    }
+
+    .hero-card,
+    .info-card,
+    .feature-card,
+    .quote-card,
+    .process-step,
+    .service-card,
+    .offer-card,
+    .sidebar-card,
+    .contact-card,
+    .panel,
+    .footer-card,
+    .form-shell,
+    .cta-band {
+        padding: 1.25rem;
+        border-radius: 1.25rem;
+    }
+
+    .offer-banner {
+        grid-template-columns: 1fr;
+        justify-items: start;
+    }
+
+    .page-hero {
+        padding: 3.5rem 0 2.5rem;
+    }
+
+    .button,
+    .button-outline,
+    .button-subtle {
+        width: 100%;
+    }
+
+    .button-row {
+        display: grid;
+    }
+}

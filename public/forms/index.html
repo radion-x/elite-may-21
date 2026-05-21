@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms | Elite Dentistry Neutral Bay</title>
+    <meta name="description" content="Prepare for your Elite Dentistry visit with patient form guidance, what to bring and a simple way to request a callback.">
+    <link rel="canonical" href="https://elitedentistry.com.au/forms/">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css?v=1">
+    <link rel="stylesheet" href="/css/mobile.css?v=1">
+    <link rel="stylesheet" href="/api/client-theme.css">
+</head>
+<body>
+    <div data-site-header></div>
+    <main>
+        <section class="page-hero">
+            <div class="container page-hero-copy">
+                <ol class="breadcrumb"><li><a href="/">Home</a></li><li>/</li><li>Forms</li></ol>
+                <div class="eyebrow" style="color: var(--color-copper);">Patient Forms</div>
+                <h1>Everything you need before your appointment.</h1>
+                <p class="lede">Use this page to understand what to bring, what to expect and how to contact the clinic if you need help before your visit.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container content-grid">
+                <div class="stack-lg" data-reveal>
+                    <div class="panel">
+                        <h3>Before your first appointment</h3>
+                        <ul class="page-list" style="margin-top: 1rem;">
+                            <li>Bring any relevant dental history, referral information or recent x-rays if you have them.</li>
+                            <li>Allow enough time to arrive calmly and discuss your goals or concerns in full.</li>
+                            <li>If you feel anxious, let the team know early so the appointment can be tailored appropriately.</li>
+                        </ul>
+                    </div>
+                    <div class="panel">
+                        <h3>Need a callback instead?</h3>
+                        <p>If you are reviewing treatment options after hours, leave your details and the clinic will be in touch during business hours.</p>
+                    </div>
+                </div>
+                <div class="form-shell panel" data-reveal="right">
+                    <form id="quoteForm">
+                        <div class="form-grid">
+                            <div class="form-field"><label for="forms-name">Full name</label><input id="forms-name" name="name" type="text" required></div>
+                            <div class="form-field"><label for="forms-email">Email</label><input id="forms-email" name="email" type="email" required></div>
+                            <div class="form-field"><label for="forms-phone">Phone</label><input id="forms-phone" name="phone" type="tel"></div>
+                            <div class="form-field"><label for="forms-service">Treatment</label><select id="forms-service" name="service"><option value="">Select</option><option>New patient exam</option><option>Invisalign</option><option>Cosmetic dentistry</option><option>Dental implants</option><option>Emergency care</option></select></div>
+                            <div class="form-field field-span-2"><label for="forms-message">Message</label><textarea id="forms-message" name="message" required></textarea></div>
+                        </div>
+                        <button class="button" type="submit" style="margin-top: 1rem;">Request callback</button>
+                        <div class="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div data-site-footer></div>
+    <script src="/js/siteShell.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/formHandler.js"></script>
+    <script src="/js/aiChat.js"></script>
+</body>
+</html>
